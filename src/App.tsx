@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 const App = () => {
   interface Os {
@@ -16,7 +17,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="App">
       <p>{desert(nougat)}</p>
     </div>
   );
