@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <p>{desert(nougat)}</p>
+      <span>{desert(nougat)}</span>
     </div>
   );
 };
